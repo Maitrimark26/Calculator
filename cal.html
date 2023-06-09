@@ -8,15 +8,15 @@
     <link rel="stylesheet" href="cal.css">
 </head>
 <body>
-    <h1>Calculator</h1>
+   
         <div class="calculator">
             <form >
                 <div class="display" >
                 <input type="text" id="txt" name="display">    
                 </div>
                 <div class="button">
-                    <input type="button" value="AC" onclick="display.value='' ">
-                    <input type="button" value="DE" onclick="display.value-=display.value.toString().slice(0,-1) ">
+                    <input type="button" value="AC" onclick="display.value='' " style="color: greenyellow;">
+                    <input type="button" value="DE" onclick="display.value=display.value.toString().slice(0,-1) " style="color: rgb(243, 117, 72);">
                     <input type="button" value="*" onclick="display.value+='*' ">
                     <input type="button" value="/"onclick="display.value+='/' ">
                 </div>
